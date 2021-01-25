@@ -4,3 +4,8 @@ body {
     padding: 0;
     scroll-behavior: smooth;
 }
+
+@font-face {
+    font-family: Gotham;
+    src: url(Fonts/GothamMedium.ttf);
+}

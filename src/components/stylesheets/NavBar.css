@@ -31,8 +31,51 @@
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    font-family: Gotham;
+    font-weight: 400;
 }
 
 .main-nav-container > ul > li {
     display: inline;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.order-li {
+    color: #5174CE;
+}
+
+hr {
+    border-top: 3px solid #5174CE;
+    width: 3em;
+    position: absolute;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+}
+
+.right-nav > div {
+    display: inline;
+    height: fit-content;
+    width: 1.2em;
+    cursor: pointer;
+}
+
+.right-nav > div > img {
+    max-width: 100%;
+}
+
+.right-nav > p {
+    display: inline;
+    font-family: Gotham;
+    font-weight: 400;
+    padding: 0.7em;
+    border: 2px solid rgba(81, 116, 206, 0.09);
+    border-radius: 40%;
+    cursor: pointer;
 }
