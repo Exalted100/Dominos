@@ -1,4 +1,5 @@
 import React from "react";
+import Items from "./Items";
 
 import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
@@ -9,6 +10,7 @@ const App = () => {
         <div>
             <NavBar />
             <SearchBar />
+            <Items />
         </div>
     )
 }
