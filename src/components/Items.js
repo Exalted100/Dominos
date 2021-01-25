@@ -6,6 +6,8 @@ const Items = () => {
     return (
         <div className="items-container">
             <Item />
+            <Item />
+            <Item />
         </div>
     )
 }

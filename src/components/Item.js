@@ -8,9 +8,11 @@ const Item = () => {
             <div className="img-container">
                 <img src={Pizza} alt="pizza picture" />
             </div>
-            <p className="item-name">Barbecue Peperroni</p>
-            <p className="item-price">From ₦2,700</p>
-            <p className="add-to-cart">Add to Cart</p>
+            <p className="item-name">Barbecue Pepperoni</p>
+            <div className="price-container">
+                <p className="item-price">From <span className="price">₦2,700</span></p>
+                <p className="add-to-cart">Add to Cart</p>
+            </div>
         </div>
     )
 }

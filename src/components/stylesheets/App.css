@@ -9,3 +9,13 @@ body {
     font-family: Gotham;
     src: url(Fonts/GothamMedium.ttf);
 }
+
+@font-face {
+    font-family: GothamLight;
+    src: url(Fonts/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url(Fonts/Gotham-Light.otf);
+}

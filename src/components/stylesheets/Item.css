@@ -1,3 +1,48 @@
+.img-container {
+    width: 15em;
+    margin: 0 auto;
+}
+
 .img-container > img {
-    max-width: 100;
+    max-width: 100%;
+}
+
+.item-name {
+    font-family: 'Gill Sans';
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.item-price, .add-to-cart {
+    display: inline;
+    margin: 0;
+}
+
+.item-price {
+    font-family: Gotham-light;
+    font-weight: 300;
+}
+
+.add-to-cart {
+    background-color: rgba(81, 116, 206, 0.09);
+    padding: 0.8em;
+    border-radius: 30px;
+    color: #5174CE;
+    font-family: Gotham;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.price {
+    font-family: Gotham;
 }
