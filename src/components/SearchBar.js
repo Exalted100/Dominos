@@ -1,8 +1,10 @@
 import React from "react";
 
+import "./stylesheets/SearchBar.css";
+
 const SearchBar = () => {
     return (
-        <div>Search bar</div>
+        <div className="search-bar">Search bar</div>
     )
 }
 
