@@ -8,6 +8,7 @@ const Items = () => {
             <Item />
             <Item />
             <Item />
+            <Item />
         </div>
     )
 }
