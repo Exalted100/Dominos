@@ -1,6 +1,6 @@
 .items-container {
     width: 80%;
-    margin: 8em auto;
+    margin: 5em auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
