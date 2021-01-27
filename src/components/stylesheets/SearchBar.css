@@ -33,7 +33,7 @@
     width: 88%;
     padding: 0.3em;
     font-family: Gotham;
-    color: rgba(81, 116, 206, 0.19);
+    color: black;
     font-weight: 100;
     font-size: 1.1em;
     letter-spacing: 0.2em;
@@ -48,6 +48,7 @@
 
 .filter-button {
     width: 15%;
+    min-width: fit-content;
     height: 45px;
     border: none;
     background-color: #0078AD;

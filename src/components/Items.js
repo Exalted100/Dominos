@@ -21,7 +21,7 @@ import MountainDew from "../images/image 13.png";
 import Eva from "../images/image 14.png";
 import Aquafina from "../images/image 15.png";
 
-const Items = () => {
+const Items = ({ search }) => {
     const items = [
         {
             name: "Barbeque Pepperoni",
@@ -98,9 +98,13 @@ const Items = () => {
         }
     ]
 
+    const filteredItems = items.filter(item => {
+        return item.name.toLowerCase().includes(search.toLowerCase())
+    })
+
     return (
         <div className="items-container">
-            {items.map(item => {
+            {filteredItems.map(item => {
                 return (
                     <div key={item.name}>
                         <Item name={item.name} price={item.price} image={item.image} />
