@@ -3,23 +3,23 @@ import Item from "./Item";
 import "./stylesheets/Items.css";
 
 import BarbequePepperoni from "../images/Untitled-1 1.png";
-import DoubleCheese from "../images/Untitled-1 1.png";
-import MixedCheese from "../images/Untitled-1 1.png";
-import SupremeChicken from "../images/Untitled-1 1.png";
-import ChickenSuya from "../images/Untitled-1 1.png";
-import PineappleDelight from "../images/Untitled-1 1.png";
-import ShawarmaRoll from "../images/Untitled-1 1.png";
-import BuffaloWings from "../images/Untitled-1 1.png";
-import BarbequeWings from "../images/Untitled-1 1.png";
-import Cocacola from "../images/Untitled-1 1.png";
-import CocacolaZero from "../images/Untitled-1 1.png";
-import Fanta from "../images/Untitled-1 1.png";
-import Sprite from "../images/Untitled-1 1.png";
-import Pepsi from "../images/Untitled-1 1.png";
-import Mirinda from "../images/Untitled-1 1.png";
-import MountainDew from "../images/Untitled-1 1.png";
-import Eva from "../images/Untitled-1 1.png";
-import Aquafina from "../images/Untitled-1 1.png";
+import DoubleCheese from "../images/Untitled-1 2.png";
+import MixedCheese from "../images/image 3.png";
+import SupremeChicken from "../images/pizza 2.png";
+import ChickenSuya from "../images/Pizza-1 1.png";
+import PineappleDelight from "../images/pizza 1.png";
+import ShawarmaRoll from "../images/image 4.png";
+import BuffaloWings from "../images/image 5.png";
+import BarbequeWings from "../images/image 6.png";
+import Cocacola from "../images/image 7.png";
+import CocacolaZero from "../images/image 8.png";
+import Fanta from "../images/image 9.png";
+import Sprite from "../images/image 10.png";
+import Pepsi from "../images/image 11.png";
+import Mirinda from "../images/image 12.png";
+import MountainDew from "../images/image 13.png";
+import Eva from "../images/image 14.png";
+import Aquafina from "../images/image 15.png";
 
 const Items = () => {
     const items = [
