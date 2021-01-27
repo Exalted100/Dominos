@@ -10,6 +10,18 @@ const Items = () => {
             name: "Barbecue Pepperoni",
             price: "2,700",
             image: BarbecuePepperoni
+        }, {
+            name: "Double Cheese",
+            price: "2,400",
+            image: 
+        }, {
+            name: "Mixed Cheese & Beef",
+            price: "2,610",
+            image: 
+        }, {
+            name: "Supreme Chicken",
+            price: "2,700",
+            image: 
         }
     ]
 
