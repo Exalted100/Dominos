@@ -46,7 +46,7 @@
     color: #5174CE;
 }
 
-hr {
+.order-li hr {
     border-top: 3px solid #5174CE;
     width: 3em;
     position: absolute;

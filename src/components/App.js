@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Items from "./Items";
 
 import NavBar from "./NavBar";
@@ -11,6 +12,7 @@ const App = () => {
             <NavBar />
             <SearchBar />
             <Items />
+            <Footer />
         </div>
     )
 }
