@@ -14,8 +14,8 @@ const NavBar = () => {
                 <div className="main-nav-container">
                     <ul>
                         <li className="order-li">Order<hr/></li>
-                        <li>Deals</li>
-                        <li>Location</li>
+                        <li className="other-li">Deals</li>
+                        <li className="other-li">Location</li>
                     </ul>
                 </div>
                 <div className="right-nav">

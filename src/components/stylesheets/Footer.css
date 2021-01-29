@@ -6,6 +6,7 @@
 
 .minor-footer  {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 85%;
     margin: 0 auto;
@@ -75,4 +76,10 @@
 
 .copyright, .terms {
     font-family: GothamLight;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo-container, .copyright, .terms {
+        display: block;
+    }
 }
